@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+<div id="container">
+    <div id="buttonsDiv">
+        <button id="rockButton">Rock</button>
+        <button id="paperButton">Paper</button>
+        <button id="scissorsButton">Scissors</button>
+    </div>
+    <div id="results-Score">
+        <div id="results"></div>
+        <br>
+        <div id="humanScore">Your score:</div>
+        <div id="computerScore">Computer score:</div>
+
+    </div>
+</div>
+<div id="newGameDiv">
+    <button id="newGame" onclick=location.reload()>New Game</button>
+</div>
 </body>
 <script src="script.js"></script>
 </html>
